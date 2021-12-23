@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/estilos-css.css" />
+    <title>RegistrarNuevo</title>
+  </head>
+  <body class="body-login">
+    <main class="main-login">
+      <figure>
+        <img src="./images/logo-oscuro.png" alt="logo" />
+      </figure>
+      <p>Ingresa tu 
+        Correo Electrónico </p>
+   <!--   <div class="content-inputs-registrar">
+      <div  class="inputs-registrar">
+        <input type="email" placeholder="Correo electronico">
+       </div>
+       <div  class="inputs-registrar">
+         <input type="password" placeholder="Contrasenia">
+       </div>
+           <span>Recordar la contrasenia</span>
+           <div class="button-content">
+             <button>
+               <a href="#">INGRESAR</a>
+             </button>
+           </div>
+     
+     </div> -->
+
+     <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electronico">
+       <!--  <div id="emailHelp" class="form-text">ejemplo:correo@gmail.com</div> -->
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label for="exampleInputPassword1" class="form-label">Recordar </label>
+        <label class="form-check-label" for="exampleCheck1">la contraseña</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Ingresar</button>
+    </form>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
